@@ -8,5 +8,5 @@ Generate the OpenFace and MARLIN feature files in the following way:
 
 
 Note: 
-1) For MARLIN, if the number of segments is less than 10 then add zero padding to make the total number of segments equal to 10. If number od segments is greater than 10 trim the excess segments to retain only the first 10.
+1) For MARLIN, if the number of segments is less than 10 then add zero padding to make the total number of segments equal to 10. If number of segments is greater than 10 then trim the excess segments to retain only the first 10.
 2) Stack all the videos' features into one npy file.
